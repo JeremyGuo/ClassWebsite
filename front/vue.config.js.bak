@@ -1,0 +1,10 @@
+module.exports = {
+    devServer: {
+        proxy: {
+            '/api': {
+                target: 'https://api.turing2019.top/index.php',
+                pathRewrite: {'^/api' : ''}
+            }
+        }
+    }
+}
