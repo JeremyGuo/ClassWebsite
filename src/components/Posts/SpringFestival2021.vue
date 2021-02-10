@@ -153,7 +153,7 @@
           于是就开始了新班级的第一次刷楼活动<br/>
         </p>
         <el-carousel trigger="click" height="240px"> <!-- 注意这里的高度要小心调整，建议开F12，然后手动观察高度的最大值 -->
-          <el-carousel-item v-for="item in [['精挑细选.jpg', '/static/2021/u.jpg'], ['', '/static/2021/v.jpg'], ['郭班好可爱<br/>“awsl”', '/static/2021/w.jpg'], ['男神阿炜', '/static/2021/x.jpg'], ['寝室送温暖-->概统送温暖-->绩点++ 温暖', '/static/2021/y.jpg']]" :key="item[1]"><!--路径名记得改hhhhhh-->
+          <el-carousel-item v-for="item in [['精挑细选.jpg', '/static/2021/u.jpg'], ['', '/static/2021/v.jpg'], ['郭班好可爱\n“awsl”', '/static/2021/w.jpg'], ['男神阿炜', '/static/2021/x.jpg'], ['寝室送温暖-->概统送温暖-->绩点++ 温暖', '/static/2021/y.jpg']]" :key="item[1]"><!--路径名记得改hhhhhh-->
             <div>
               <p>{{ item[0] }}</p>
               <h3 class="small">{{ item[1] }}</h3>
