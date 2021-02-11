@@ -9,7 +9,10 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Home,
+      meta: {
+        title: '19图灵班10班-2021春节整活'
+      }
     },
     {
       path: '/Activities',
