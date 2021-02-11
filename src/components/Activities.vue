@@ -19,10 +19,10 @@ export default {
   data () {
     return {
       posts: [
-        {id: 1, title: '集体定向', img: '/static/posts/Img1.jpg', src: '/', time: '2021/2/10', abstract: '班级校内定向活动'},
-        {id: 2, title: '圆明园', img: '/static/posts/Img2.jpg', src: '/', time: '2021/2/10', abstract: '圆明园游园活动'},
-        {id: 3, title: '火锅&餐后活动', img: '/static/posts/Img3.jpg', src: '/', time: '2021/2/10', abstract: '期中后聚餐'},
-        {id: 4, title: '送温暖', img: '/static/posts/Img4.jpg', src: '/', time: '2021/2/10', abstract: '团委组织送温暖活动'}
+        {id: 1, title: '集体定向', img: '/static/SpringFestival2021/photos/NationalDay/_DSC2719.jpg', src: '/', time: '2020国庆', abstract: '班级校内定向活动'},
+        {id: 2, title: '圆明园', img: '/static/SpringFestival2021/photos/NationalDay/_DSC2919.jpg', src: '/', time: '2020国庆', abstract: '圆明园游园活动'},
+        {id: 3, title: '火锅&餐后活动', img: '/static/SpringFestival2021/photos/Eating/image2.jpg', src: '/', time: '国庆后第二个周末', abstract: '期中后聚餐'},
+        {id: 4, title: '送温暖', img: '/static/SpringFestival2021/photos/warmnessDeliver/image2.jpg', src: '/', time: '国庆后第二个周末', abstract: '团委组织送温暖活动'}
       ]
     }
   },
@@ -31,3 +31,11 @@ export default {
   }
 }
 </script>
+<style scoped>
+img {
+  width: 100%;
+  height: auto;
+  display: inline-block;;
+  margin: auto;
+}
+</style>
